@@ -1,7 +1,7 @@
 <template>
     <div class="heading">
         <h4>{{ title }}</h4>
-        <h5>{{ greeting() }}</h5>
+      
     </div>
 </template>
 <script>
@@ -12,9 +12,9 @@ export default{
     }
  },
  methods:{
-    greeting: function(){
-return "Good Morning Vinnie"
-    }
+//     greeting: function(){
+// return "Good Morning Vinnie"
+//     }
  },
  
 }

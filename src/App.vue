@@ -1,7 +1,8 @@
 <template>
 
-  <firstApp/>
-<headerPart></headerPart>
+  
+<headerPart/>
+<firstApp/>
   <footerNote/>
 </template>
 

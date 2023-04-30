@@ -1,5 +1,5 @@
 <template>
-    <div>
+    <div class="nav">
         <h4>{{ navbar }}</h4>
     </div>
 </template>
@@ -7,8 +7,13 @@
 export default{
     data() {
         return {
-            navbar :'this is my Navbar'
+            navbar :'NinjasApp'
         }
     },
 }
 </script>
+<style>
+.nav{
+    background: #13c764cc;
+}
+</style>
